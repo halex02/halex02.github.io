@@ -1,0 +1,8 @@
+---
+layout: post
+title : "Welcome Stranger !"
+date: 2015-11-09 22:22:10
+categories : tests
+---
+Welcome Stranger !!!
+Lorem ipsum sit dolor amet.... et blablalbla.
