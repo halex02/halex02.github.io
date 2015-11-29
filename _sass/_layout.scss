@@ -200,7 +200,9 @@ font-size: 15px;
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
-    margin-left: $spacing-unit / 2
+    margin-left: $spacing-unit / 2 ;
+    border: 2px solid $grey-color-light ;
+    border-radius : 30px/30px
 }
 
 .main-col-1 {
@@ -209,6 +211,7 @@ font-size: 15px;
 
 .main-col-2 {
     width: 65%;
+    min-height: 450px ;
     }
 
 .post-list {
