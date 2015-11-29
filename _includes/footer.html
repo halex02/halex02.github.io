@@ -8,7 +8,8 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li><a href="mailto:{{ site.email }}">Mail</a></li>
-        </ul>
+	  <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">Flux RSS</li>
+	</ul>
       </div>
 
       <div class="footer-col footer-col-2">
