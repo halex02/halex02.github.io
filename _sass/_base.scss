@@ -92,11 +92,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: darken($brand-color, 30%);
+    color: lighten($brand-color, 30%);
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 45%);
+        color: lighten($brand-color, 45%);
     }
 
     &:hover {
