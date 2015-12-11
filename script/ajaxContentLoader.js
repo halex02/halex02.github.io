@@ -1,5 +1,5 @@
 var init_save = $(".main-col-2").clone() ;
-var tabLinks = $(".post-link").makeArray() ;
+var tabLinks = jQuery.makeArray(document.getElementsByClassName(".post-link")) ;
 var i = 0 ;
 
 function getLink(){
