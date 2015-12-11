@@ -15,12 +15,14 @@ function ajaxRequestCompletion(){
 }
 
 function mouseenterHandler(){
-  $(".main-col-2").empty() ;
-  $(".main-col-2").load(formatLinks(getLink()), ajaxRequestCompletion) ;
+    $(".main-col-2").empty() ;
+    $(".main-col-2").load(formatLinks(getLink()), ajaxRequestCompletion) ;
+    console.log("DOM Element Entered") ;
 }
 
 function mouseleaveHandler(){
- $(".main-col-2").replaceWith(init_save.clone()) ; 
+    $(".main-col-2").replaceWith(init_save.clone()) ;
+    console.log("DOM Element leaved.") ;
 }
 
 for (; i < tabLinks.length ; i++){
