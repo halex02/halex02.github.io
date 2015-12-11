@@ -1,5 +1,5 @@
 var init_save = $(".main-col-2").clone() ;
-var tabLinks = document.getElementsByClassName(".post-link") ;
+var jLinks = $(".post-link") ;
 var i = 0 ;
 
 function getLink(){
@@ -25,7 +25,5 @@ function mouseleaveHandler(){
     console.log("DOM Element leaved.") ;
 }
 
-for (; i < tabLinks.length ; i++){
-    $(tabLinks[i]).mouseenter(mouseenterHandler) ;
-    $(tabLinks[i]).mouseleave(mouseleaveHandler) ;
-}
+jLinks.mouseenter(mouseenterHandler) ;
+jLinks.mouseleave(mouseleaveHandler) ;
