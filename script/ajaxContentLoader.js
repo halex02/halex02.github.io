@@ -26,6 +26,6 @@ function mouseleaveHandler(){
 }
 
 for (; i < tabLinks.length ; i++){
-  tabLinks[i].mouseenter() ;
-  tabLinks[i].mouseleave() ;
+  tabLinks[i].mouseenter(mouseenterHandler) ;
+  tabLinks[i].mouseleave(mouseleaveHandler) ;
 }
