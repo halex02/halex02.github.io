@@ -1,5 +1,5 @@
 var init_save = $(".main-col-2").clone() ;
-var tabLinks = jQuery.makeArray(document.getElementsByClassName(".post-link")) ;
+var tabLinks = document.getElementsByClassName(".post-link") ;
 var i = 0 ;
 
 function getLink(){
@@ -26,6 +26,6 @@ function mouseleaveHandler(){
 }
 
 for (; i < tabLinks.length ; i++){
-  tabLinks[i].mouseenter(mouseenterHandler) ;
-  tabLinks[i].mouseleave(mouseleaveHandler) ;
+    $(tabLinks[i]).mouseenter(mouseenterHandler) ;
+    $(tabLinks[i]).mouseleave(mouseleaveHandler) ;
 }
