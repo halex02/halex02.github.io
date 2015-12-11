@@ -16,7 +16,7 @@ function ajaxRequestCompletion(){
 
 function mouseenterHandler(){
     $(".main-col-2").empty() ;
-    $(".main-col-2").load(formatLinks(getLink()), ajaxRequestCompletion) ;
+    $(".main-col-2").load(formatLink(getLink()), ajaxRequestCompletion) ;
     console.log("DOM Element Entered") ;
 }
 
