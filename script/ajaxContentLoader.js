@@ -16,7 +16,7 @@ function ajaxRequestCompletion(){
 
 function mouseenterHandler(){
     $(".main-col-2").empty() ;
-    $(".main-col-2").load($(this).attr("href").concat(" #LoadableContent"), ajaxRequestCompletion) ;
+    $(".main-col-2").load($(this).attr("href").concat(" #loadableContent"), ajaxRequestCompletion) ;
     console.log("DOM Element Entered") ;
 }
 
