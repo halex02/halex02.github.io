@@ -1,7 +1,7 @@
 ---
 layout: post
 title:	"Il faut bien commencer quelque part..."
-date:	2015-11-09 12:47:50
+date:	2015-12-09 12:47:50
 categories: general
 ---
 Bon ça y est la construction de ce  blog est enfin _fini_ (il va falloir que je me trouve un nouveau projet maintenant). Il reste des choses à améliorer/ajouter mais je peux m'en servir alors, hop, on l'inaugure avec cet article stupide ^^ ! Déjà merci [Kobboë][kobboe-blog] pour l'idée de permettre une preview des articles sur la page d'accueil (un peu de pub gratuite pour la peine, et si tu as d'autres idées comme celle là je suis preneur) et aussi merci [AireAyquaza][AireAyquaza-github] pour la relecture de code.  

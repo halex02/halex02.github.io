@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Nuit de l'Info 2015"
+date:  2015-12-09 17:11:55
+categories : informatique lille1 jdr
+---
+La semaine dernière, dans la nuit du jeudi 3 au vendredi 4 s'est déroulé la Nuit de l'info dans les locaux de la fac. Pour ceux qui ne connaitraient pas, durant toute une nuit on se goinfre de pizza, soda, café, thé... en résumé tout ce qu'il faut pour ne pas dormir (ainsi que chips et de sucreries) et on est censé développer un projet (de notre crû) sur un thème donné en début de nuit par les organisateurs, tout en tentant de relever des défis proposés (et récompensés) par les partenaires de l'évènement, le tout dans la joie et la bonne humeur. Et à 8h00 quand ce joyeux bazar s'achève, les étudiants zombies vont enfin dormir.  
+Bon ça c'est la théorie, dans les faits ça ne se passe pas forcément comme ça, de ce fait mieux vaut prévoir un plan B.
+
+Pour cette année, j'ai fait équipe avec quelques amis (dont...). Notre équipe s'appelait "Enfants de Jurons" (Merci JDG !!!). Pourquoi ? Ben, essayez de faire un truc propre en PHP ou en Bash, ou encore de ne pas avoir de segfault en C. Quand on en a marre on finit par insulter le langage/compilateur (ça sert à rien mais ça fait du bien) et quand on est calmé on trouve une solution.
+
+J'avais préparé les choses sérieusement (ça m'a pris 3 semaines), y compris le plan B (Bon je vous le cache pas : tout ce baratin c'est pour ammener au plan B, si ça s'était passé comme prévu, je n'écrirais même pas cet article).  
+Pour bosser, j'ai mis en place un serveur web sur un Raspberry Pi 2 (vous savez celui qui est assez puissant pour faire tourner Windob 10) tournant sous Archlinux (ma distribution linux préférée) : là dessus, dans mon infini sagesse (Quoi ?! Depuis quand on ne peut plus se lancer des fleurs ?), j'ai mis Apache, PHP5, Sqlite3 (ou 4 je ne me souviens plus de la version) et son interface PhpLiteAdmin, ainsi que Node.js... et pleins de bonnes choses. 
+Quant au plan B, c'était un JDR sur table, le Donjon de Naheulbeuk. Chacun avait son perso tout beau tout gentil, y'avait des licornes, des arcs-en-ciel... non mais à qui est-ce-que je vais faire croire ça ? On avait Connard le Barbant, un barbare guerrier (joué par), Théo de la Boisson, un humain paladin (), [insérer nom ici], un demi-elfe nécromancien(), [insérer nom imprononçable ici], un gobelin ingénieur (), [insérer nom ici], une amazone (,) et enfin Kaal, un elfe noir Texas ranger () (qui a co-MJ tout ce bazar avec moi le MJ en carton (normal j'avais jamais ça avant).
+
+Bon ça s'est donc fini sur le plan B, pourtant on était parti dans l'idée de tenter de faire un truc sérieux; mais dans ce genre d'évènements, il y a TOUJOURS des problèmes de réseaux, et les orga' débordés n'ont pu venir nous aider à les régler que 3 heures après le début de la Nuit de l'Info : on avait déjà laché l'affaire.
+
+Quant au scénario de notre JDR, on en a pris un déjà rédigé sur le site du jeu : _Les impôts de Valtordu_, un scénario qui était censé durer 1heure au maximum et qu'on a réussi à faire durer 5 bonnes heures (bravo les aventuriers).  
+On peut notamment féliciter Connard le Barbant qui a joué son rôle de gros lourd à la perfection et qui s'est pris toutes les calamités de l'univers suite à ses décisions et ses lancers de dés foireux sans que les MJs aient eu besoin de lever le petit doigt (ses échecs critiques consécutifs lui ont valu une calamité  : se faire enlever par des aliens et libérer sans aucun vêtement, équipement) , ainsi que le gobelin qui malgré ma décision de lui balancer toutes les calamités possibles et imaginables (Pourquoi ? Eh bien, c'est un gobelin, c'est déjà une raison suffisante en soi)  ne m'a laissé aucune occasion de le faire en jouant son rôle à la perfection. 
