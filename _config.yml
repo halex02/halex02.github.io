@@ -8,6 +8,7 @@
 # Site settings
 title: Les divagations d'un geek !
 email: alexandre.houplon@etudiant.univ-lille1.fr
+permalink: /:month-:day-:year/:title.html
 description: > # this means to ignore newlines until "baseurl:"
   Petit Blog sans intérêt d'un étudiant en informatique.
 baseurl: "" # the subpath of your site, e.g. /blog

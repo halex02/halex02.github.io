@@ -6,23 +6,16 @@ function ajaxRequestCompletion(){
     console.log("Requête complétée.") ;
 }
 
-function mouseenterHandler1(){
+function mouseenterHandler(){
     console.log("DOM Element Entered") ;
-    if($("article")[0]!=null){
+    /*var loaded_content = init_save.clone().load($(this).attr("href").concat(" #loadableContent"), ajaxRequestCompletion) ;*/
+    if($("#loadableContent")[0]!=null){
 	$(".main-col-2").replaceWith(init_save.clone()) ;
-	$("li").css("background-color","#0E2225");
+	$(".post-list li").css("background-color","#0E2225");
     }else{
 	$(".main-col-2").empty() ;
 	$(".main-col-2").load($(this).attr("href").concat(" #loadableContent"), ajaxRequestCompletion) ;
 	$(this).parent().parent().css("background-color","#378695") ;
-    }
-}
-
-function mouseenterHandler2(){
-    if($("#loadableContent")[0]!=null){
-	$(".main-col-2").replaceWith(init_save.clone());
-    }else{
-	console.log("Unable to do this.") ;
     }
 }
 
@@ -31,6 +24,5 @@ function mouseleaveHandler(){
     console.log("DOM Element leaved.") ;
 }
 
-jLinks.mouseenter(mouseenterHandler1) ;
-jLinks.mouseenter(mouseenterHandler2) ;
+jLinks.mouseenter(mouseenterHandler) ;
 /*jLinks.mouseleave(mouseleaveHandler) ;*/
