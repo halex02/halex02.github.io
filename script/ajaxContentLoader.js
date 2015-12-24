@@ -6,7 +6,7 @@ var G_INITIAL_CONTENT_SAVE = $(".main-col-2").clone() ;
 /**
  * Liste des liens des articles.
  */
-var G_JQUERY_LINKS = $(".post-link") ;
+var G_LINKS = $(".post-link") ;
 
 /**
  * Variable globale qui garde en mémoire la dernière url pour laquelle une requête AJAX a été effectuée,
@@ -62,4 +62,4 @@ function mouseEnterHandler()
 
 }
 
-G_JQUERY_LINKS.mouseenter(mouseEnterHandler) ;
+G_LINKS.mouseenter(mouseEnterHandler) ;
