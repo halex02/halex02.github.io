@@ -19,4 +19,4 @@ Sinon pour tromper l'ennui en ce moment, eh bien, déjà j'ai mon blog avec quel
 
 Il y a aussi l'implémentation d'un système de commentaires sur le blog que je dois faire (parce qu'un blog sans commentaires c'est un peu bête), et il faut que je reprenne le serveur que j'avais fait pour la nuit de l'info afin de le sécuriser pour pouvoir le laisser tourner 24h/24-7j/7 ouvert sur le net et bricoler tout ce qui m'amuse dessus.  Il y a aussi ma recherche de stage de fin de Licence, sur laquelle j'écrirais sûrement un post d'ailleurs.  Voilà ce sur quoi j'avais envie d'écrire aujourd'hui.
 
-[i3-post]: {{ site.url }}/12-30-2015/multi-screen-pour-i3.html
+[i3-post]: {{ site.url }}12-30-2015/Multi-screen-pour-i3.html
