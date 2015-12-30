@@ -12,7 +12,7 @@ permalink: /:month-:day-:year/:title.html
 description: > # this means to ignore newlines until "baseurl:"
   Petit Blog sans intérêt d'un étudiant en informatique, à vocation thérapeutique plus que d'autre chose.
   J'y parles de ce que je veux quand ça me chante. Mais qui sait, en vous perdant ici, vous tomberez peut-être sur une ou deux perles.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: halex02
 github_username:  halex02
