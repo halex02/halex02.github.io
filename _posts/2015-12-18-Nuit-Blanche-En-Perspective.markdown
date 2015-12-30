@@ -2,7 +2,7 @@
 layout: post
 title: "Nuit blanche en perspective !"
 date:  2015-12-18 01:45:20
-categories: divagations,lille1,partiels
+categories: Divagations,Fac
 ---
 Bon ça c'est le post de la rage absolue juste destiné à passer mes nerfs sur quelque chose : à savoir mon clavier ! C'est thérapeutique après tout.  Du coup je m'attend pas spécialement à être lu et faut pas chercher de la lecture intéressante là-dedans, il n'y en aura tout simplement pas ! Vous voici prévenu.
 

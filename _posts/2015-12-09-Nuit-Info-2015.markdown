@@ -2,8 +2,7 @@
 layout: post
 title: "Nuit de l'Info 2015"
 date:  2015-12-09 17:11:55
-categories : informatique,lille1,jdr,nuitInfo
-tags :
+categories : Fac,JDR,nuitInfo
 ---
 La semaine dernière, dans la nuit du jeudi 3 au vendredi 4 s'est déroulé la Nuit de l'info dans les locaux de la fac. Pour ceux qui ne connaitraient pas, durant toute une nuit on se goinfre de pizza, soda, café, thé... en résumé tout ce qu'il faut pour ne pas dormir (ainsi que chips et de sucreries) et on est censé développer un projet (de notre crû) sur un thème donné en début de nuit par les organisateurs, tout en tentant de relever des défis proposés (et récompensés) par les partenaires de l'évènement, le tout dans la joie et la bonne humeur. Et à 8h00 quand ce joyeux bazar s'achève, les étudiants zombies vont enfin dormir.  
 Bon ça c'est la théorie, dans les faits ça ne se passe pas forcément comme ça, de ce fait mieux vaut prévoir un plan B.
