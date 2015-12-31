@@ -3,6 +3,7 @@ layout: post
 title: "Les vacances, cet Enfer !"
 date: 2015-12-30 16:16:50
 categories: divagations,Fac
+comments: true
 ---
 Bonjour, ami lecteur.  
 Les vacances, quand elles suivent les partiels sont les pires ennemies de l'étudiant. Après s'être tué à la tâche pendant 1 à 2 semaines de partiels (on peut dire ce qu'on veut c'est exténuant les examens), vous voilà libre pendant 2 ou 3 semaines. Après quelques jours pour se reposer et se remettre de ses émotions, viennent vite l'ennui, ainsi que l'impatience et l'anxiété de l'attente des résultats. Est-ce-que j'ai mon semestre ? Me suis-je foiré en beauté ? Puis-je rattraper ce qui n'a pas été ? Pleins de questions qui me traversent la tête, et sans doute celle de chacun des mes camarades de promo, sans qu'on puisse faire autre chose qu'attendre les résultats du jury.
