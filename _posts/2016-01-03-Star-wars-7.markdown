@@ -4,7 +4,7 @@ title: "Star Wars 7: fiasco ou pas ?"
 date: 2016-01-03 00:13:55
 categories: cinema
 comments: true
-published: false
+published: true
 ---
 Salutations jeunes padawans !  
 J'en avais déjà parlé, alors le voilà : mon avis sur Star Wars 7. Pour en avoir parlé avec un ami connaisseur de l'univers étendu, je risque de me faire hurler dessus par quelques personnes. Je craignais que Disney ne viole les souvenirs d'enfance d'un bon paquet de personne en nous sortant quelque chose du genre "Star Wars Episode 7 : L'odyssée de Jar-Jar Binks" (ou pire), histoire de vendre des jouets.
