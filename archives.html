@@ -1,28 +1,22 @@
 ---
-layout: default
+layout: page
+title: Archives
+permalink: /archives/
 ---
+<!--<h2>Archives</h2>-->
+<ul>
+  {% for post in site.posts %}
 
-<div class="home">
-  <div class="main-col-wrapper">
-    <div class="main-col main-col-1">
-      <h1 class="page-heading">Derniers Articles</h1>
-      
-      <ul class="-list">
-	{% for post in site.posts limit:5 %}
-	<li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-	  
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-	</li>
-	{% endfor %}
-      </ul>
-          </div>
-    
-    <div class="main-col main-col-2">
-      <h2> {{ site.title }} </h2>
-      <p>{{ site.description }}</p>
-    </div>
-    </div>
-</div>
+    {% unless post.next %}
+      <h3>{{ post.date | date: '%Y' }}</h3>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h3>{{ post.date | date: '%Y' }}</h3>
+      {% endif %}
+    {% endunless %}
+
+    <li>{{ post.date | date:"%b" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

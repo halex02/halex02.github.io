@@ -5,48 +5,59 @@ layout: default
 <div class="home">
   <div class="main-col-wrapper">
     <div class="main-col main-col-1">
-      <h1 class="page-heading">Derniers Articles</h1>
-      
-      <ul class="post-list">
-	{% for post in site.posts  %}
-	<li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-	  
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-	</li>
-	{% endfor %}
-      </ul>
-      <hr\>
-      <h1 class="page-heading">Liens Externes</h1>
-      <ul class="favorite-list">
-	<li>
-	  <h2>
-	    <a class="favorite-link" href="http://lalousticchronique.co/">La Loustic Chronique</a>
+      <div class="post-list-container">
+	<h1 class="page-heading">Derniers Articles</h1>
+	
+	<ul class="post-list">
+	  {% for post in site.posts limit:5  %}
+	  <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	    
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+	  </li>
+	  {% endfor %}
+	</ul>
+      </div>
+      <div class="favorite-list-container">
+	<h1 class="page-heading">Liens Externes</h1>
+	<ul class="favorite-list">
+	  <li>
+	    <h2>
+	      <a class="favorite-link" href="http://lalousticchronique.co/">La Loustic Chronique</a>
+	    </h2>
+	  </li>
+	  <li>
+	    <h2>
+	      <a class="favorite-link" href="http://urbexpicture.com/">Intrépides Escapades</a>
+	    </h2>
+	  </li>
+	  <li>
+	    <h2>
+	      <a class="favorite-link" href="http://kobboee.blogspot.fr/">Le Blog de Kobboë</a>
+	    </h2>
+	  </li>
+	  <li>
+	    <h2>
+	      <a class="favorite-link" href="http://laissonscala.over-blog.com/">Laissons ça là.</a>
 	  </h2>
 	</li>
-	<li>
-	  <h2>
-	    <a class="favorite-link" href="http://urbexpicture.com/">Intrépides Escapades</a>
-	  </h2>
-	</li>
-	<li>
-	  <h2>
-	    <a class="favorite-link" href="http://kobboee.blogspot.fr/">Le Blog de Kobboë</a>
-	  </h2>
-	</li>
-	<li>
-	  <h2>
-	    <a class="favorite-link" href="http://laissonscala.over-blog.com/">Laissons ça là.</a>
-	  </h2>
-	</li>
-      </ul>
+	</ul>
+      </div>
     </div>
     
-    <div class="main-col main-col-2">
+    <div class="main-col main-col-2" id="post-include">
       <h2> {{ site.title }} </h2>
       <p>{{ site.description }}</p>
     </div>
-    </div>
+    
+    <!-- <div class="main-col main-col-2" id="twitter-include">
+	 <a class="twitter-timeline" width="180" height="220" href="https://twitter.com/halex02" data-widget-id="685594186624675845" data-chrome="noborders transparent">Tweets de @halex02</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div> -->
+    <!-- <div class="main-col main-col-2" id="github-include"></div>
+    <div id="steam-include"></div> -->
+    
+  </div>
 </div>

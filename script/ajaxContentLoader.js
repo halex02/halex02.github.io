@@ -1,7 +1,7 @@
 /**
  * Sauvegarde du contenu initial du div principal pour pouvoir le remettre en place après prévisualisation d'un article.
  */
-var G_INITIAL_CONTENT_SAVE = $(".main-col-2").clone() ;
+var G_INITIAL_CONTENT_SAVE = $("#post-include").clone() ;
 
 /**
  * Liste des liens des articles.
@@ -46,14 +46,14 @@ function mouseEnterHandler()
 									ajaxRequestCompletion(G_LAST_URL_SAVE)) ;
 
 	$(".post-list li").css("background-color","#0E2225");
-	$(".main-col-2").replaceWith(l_loaded_content);
+	$("#post-include").replaceWith(l_loaded_content);
 	$(this).parent().parent().css("background-color","#378695") ;
 	
     }
     else
     {
 
-	$(".main-col-2").replaceWith(G_INITIAL_CONTENT_SAVE.clone()) ;
+	$("#post-include").replaceWith(G_INITIAL_CONTENT_SAVE.clone()) ;
 	$(".post-list li").css("background-color","#0E2225");
 
 	G_LAST_URL_SAVE = null ;

@@ -198,13 +198,16 @@ font-size: 15px;
 
 .main-col {
 	  float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-    margin-left: $spacing-unit / 2 ;
-    border: 2px solid $grey-color-light ;
-    border-radius : 30px/30px ;
-    min-height: 450px ;
-    padding-right: $spacing-unit / 2;
+    margin-bottom: $spacing-unit ;
+    padding-left: $spacing-unit ;
+    margin-left: $spacing-unit/4 ;
+    //min-height: 450px ;
+    padding-right: $spacing-unit ;
+}
+
+#post-include {
+   max-height : 650px ;
+   overflow: auto ;
 }
 
 .main-col-1 {
@@ -212,8 +215,19 @@ font-size: 15px;
 }
 
 .main-col-2 {
+    border: 2px solid $grey-color-light ;
+    border-radius : 30px/30px ;
     width: 63%;
     }
+
+.post-list-container, .favorite-list-container {
+    padding-right : $spacing-unit ;
+    padding-left : $spacing-unit ;
+    margin-bottom : $spacing-unit/2 ;
+    border: 2px solid $grey-color-light;
+    border-radius : 30px/30px ;	    
+    
+}
 
 .post-list, .favorite-list {
     margin-left: 0;
