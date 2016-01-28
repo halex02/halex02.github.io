@@ -1,0 +1,24 @@
+#editions, #loadable-content {
+  padding-right: 5% ;
+  padding-left: 5% ;
+  border: 2px solid $grey-color-light;
+  border-radius: 30px/30px ;
+  background-color:darken($brand-color, 15%) ;
+
+  > span {
+    //padding-right:2px ;
+    //padding-left: 2px ;
+  }
+
+  > .edition-name {
+    font-weight : bold ;
+    color: black ;
+    text-decoration : underline ;
+    //border-right: 2px solid $grey-color-light;
+    //border-left: 2px solid $grey-color-light;
+
+    &:hover {
+      color: $text-color ;
+    }
+  }
+}
