@@ -211,13 +211,14 @@ font-size: 15px;
 }
 
 .main-col-1 {
- width: 27%;
+ /*width: 27%;*/
+ max-width: 35% ;
 }
 
 .main-col-2 {
     border: 2px solid $grey-color-light ;
     border-radius : 30px/30px ;
-    width: 63%;
+    max-width: 54%;
     }
 
 .post-list-container, .favorite-list-container {

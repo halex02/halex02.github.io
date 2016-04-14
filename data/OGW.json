@@ -1,0 +1,1118 @@
+{
+  "set_fr": "Serment des sentinelles",
+  "set_en": "Oath of the Gatewatch",
+  "code": "OGW",
+  "hashtag": "#MTGOGW",
+  "collection": [
+    {
+      "name_fr": "Fourbe des formes",
+      "name_en": "Deceiver of Form",
+      "set_id": 1,
+      "amount": 1
+    },
+    {
+      "name_fr": "Mimique eldrazi",
+      "name_en": "Eldrazi Mimic",
+      "set_id": 2,
+      "amount": 1
+    },
+    {
+      "name_fr": "Précurseur de la fin",
+      "name_en": "Endbringer",
+      "set_id": 3,
+      "amount": 2
+    },
+    {
+      "name_fr": "Kozilek, la Grande Distorsion",
+      "name_en": "Kozilek, the Great Distortion",
+      "set_id": 4,
+      "amount": 1
+    },
+    {
+      "name_fr": "Pionnier de Kozilek",
+      "name_en": "Kozilek's Pathfinder",
+      "set_id": 5,
+      "amount": 4
+    },
+    {
+      "name_fr": "Reforgeur de matière",
+      "name_en": "Matter Reshaper",
+      "set_id": 6,
+      "amount": 1
+    },
+    {
+      "name_fr": "Fracasseur de réalité",
+      "name_en": "Reality Smasher",
+      "set_id": 7,
+      "amount": 0
+    },
+    {
+      "name_fr": "Contorsion spatiale",
+      "name_en": "Spatial Contortion",
+      "set_id": 8,
+      "amount": 2
+    },
+    {
+      "name_fr": "Voyant ligatureur de pensées",
+      "name_en": "Thought-Knot Seer",
+      "set_id": 9,
+      "amount": 0
+    },
+    {
+      "name_fr": "Marcheur des landes",
+      "name_en": "Walker of the Wastes",
+      "set_id": 10,
+      "amount": 2
+    },
+    {
+      "name_fr": "Garde des géométries",
+      "name_en": "Warden of Geometries",
+      "set_id": 11,
+      "amount": 6
+    },
+    {
+      "name_fr": "Gémissement distordant",
+      "name_en": "Warping Wail",
+      "set_id": 12,
+      "amount": 1
+    },
+    {
+      "name_fr": "Supplanteur eldrazi",
+      "name_en": "Eldrazi Displacer",
+      "set_id": 13,
+      "amount": 1
+    },
+    {
+      "name_fr": "Protecteur d'Affa",
+      "name_en": "Affa Protector",
+      "set_id": 14,
+      "amount": 6
+    },
+    {
+      "name_fr": "Renforts alliés",
+      "name_en": "Allied Reinforcements",
+      "set_id": 15,
+      "amount": 2
+    },
+    {
+      "name_fr": "Appelez les Sentinelles !",
+      "name_en": "Call the Gatewatch",
+      "set_id": 16,
+      "amount": 1
+    },
+    {
+      "name_fr": "Reflet éblouissant",
+      "name_en": "Dazzling Reflection",
+      "set_id": 17,
+      "amount": 7
+    },
+    {
+      "name_fr": "Rapace d'expédition",
+      "name_en": "Expedition Raptor",
+      "set_id": 18,
+      "amount": 7
+    },
+    {
+      "name_fr": "Générale Tazri",
+      "name_en": "General Tazri",
+      "set_id": 19,
+      "amount": 1
+    },
+    {
+      "name_fr": "Regard immolateur",
+      "name_en": "Immolating Glare",
+      "set_id": 20,
+      "amount": 2
+    },
+    {
+      "name_fr": "Bénédiction d'Iona",
+      "name_en": "Iona's Blessing",
+      "set_id": 21,
+      "amount": 2
+    },
+    {
+      "name_fr": "Zone d'isolation",
+      "name_en": "Isolation Zone",
+      "set_id": 22,
+      "amount": 5
+    },
+    {
+      "name_fr": "Maître-faux kor",
+      "name_en": "Kor Scythemaster",
+      "set_id": 23,
+      "amount": 8
+    },
+    {
+      "name_fr": "Ascensionniste céleste kor",
+      "name_en": "Kor Sky Climber",
+      "set_id": 24,
+      "amount": 7
+    },
+    {
+      "name_fr": "Linvala, la Préservatrice",
+      "name_en": "Linvala, the Preserver",
+      "set_id": 25,
+      "amount": 1
+    },
+    {
+      "name_fr": "Prise de position",
+      "name_en": "Make a Stand",
+      "set_id": 26,
+      "amount": 3
+    },
+    {
+      "name_fr": "Aéronaute des Makindi",
+      "name_en": "Makindi Aeronaut",
+      "set_id": 27,
+      "amount": 5
+    },
+    {
+      "name_fr": "Sacré saut",
+      "name_en": "Mighty Leap",
+      "set_id": 28,
+      "amount": 6
+    },
+    {
+      "name_fr": "Avant-garde de Munda",
+      "name_en": "Munda's Vanguard",
+      "set_id": 29,
+      "amount": 1
+    },
+    {
+      "name_fr": "Serment de Gideon",
+      "name_en": "Oath of Gideon",
+      "set_id": 30,
+      "amount": 0
+    },
+    {
+      "name_fr": "Clerc de guerre du Ondou",
+      "name_en": "Ondu War Cleric",
+      "set_id": 31,
+      "amount": 5
+    },
+    {
+      "name_fr": "Capitaine de la relève",
+      "name_en": "Relief Captain",
+      "set_id": 32,
+      "amount": 3
+    },
+    {
+      "name_fr": "Lumière corrosive",
+      "name_en": "Searing Light",
+      "set_id": 33,
+      "amount": 7
+    },
+    {
+      "name_fr": "Coude à coude",
+      "name_en": "Shoulder to Shoulder",
+      "set_id": 34,
+      "amount": 4
+    },
+    {
+      "name_fr": "Mage envoûteuse d'engeances",
+      "name_en": "Spawnbinder Mage",
+      "set_id": 35,
+      "amount": 8
+    },
+    {
+      "name_fr": "Planeur des steppes",
+      "name_en": "Steppe Glider",
+      "set_id": 36,
+      "amount": 2
+    },
+    {
+      "name_fr": "Equipeuse du Refuge de pierre",
+      "name_en": "Stone Haven Outfitter",
+      "set_id": 37,
+      "amount": 0
+    },
+    {
+      "name_fr": "Acolyte forgepierre",
+      "name_en": "Stoneforge Acolyte",
+      "set_id": 38,
+      "amount": 1
+    },
+    {
+      "name_fr": "Mur de résurgence",
+      "name_en": "Wall of Resurgence",
+      "set_id": 39,
+      "amount": 2
+    },
+    {
+      "name_fr": "Interférence absconse",
+      "name_en": "Abstruse Interference",
+      "set_id": 40,
+      "amount": 7
+    },
+    {
+      "name_fr": "Drone aveuglant",
+      "name_en": "Blinding Drone",
+      "set_id": 41,
+      "amount": 6
+    },
+    {
+      "name_fr": "Drone cultivateur",
+      "name_en": "Cultivator Drone",
+      "set_id": 42,
+      "amount": 6
+    },
+    {
+      "name_fr": "Indolent pélagique",
+      "name_en": "Deepfathom Skulker",
+      "set_id": 43,
+      "amount": 1
+    },
+    {
+      "name_fr": "Infiltrateur dimensionnel",
+      "name_en": "Dimensional Infiltrator",
+      "set_id": 44,
+      "amount": 1
+    },
+    {
+      "name_fr": "Négateur de gravité",
+      "name_en": "Gravity Negator",
+      "set_id": 45,
+      "amount": 6
+    },
+    {
+      "name_fr": "Prophète de la distorsion",
+      "name_en": "Prophet of Distortion",
+      "set_id": 46,
+      "amount": 2
+    },
+    {
+      "name_fr": "Faufilement spatial",
+      "name_en": "Slip Through Space",
+      "set_id": 47,
+      "amount": 5
+    },
+    {
+      "name_fr": "Moissonneur des pensées",
+      "name_en": "Thought Harvester",
+      "set_id": 48,
+      "amount": 2
+    },
+    {
+      "name_fr": "Fracassement du vide",
+      "name_en": "Void Shatter",
+      "set_id": 49,
+      "amount": 4
+    },
+    {
+      "name_fr": "Crabe ancien",
+      "name_en": "Ancient Crab",
+      "set_id": 50,
+      "amount": 5
+    },
+    {
+      "name_fr": "Analyse comparée",
+      "name_en": "Comparative Analysis",
+      "set_id": 51,
+      "amount": 6
+    },
+    {
+      "name_fr": "Membrane de confinement",
+      "name_en": "Containment Membrane",
+      "set_id": 52,
+      "amount": 5
+    },
+    {
+      "name_fr": "Ecrasement tentaculaire",
+      "name_en": "Crush of Tentacles",
+      "set_id": 53,
+      "amount": 0
+    },
+    {
+      "name_fr": "Père des cyclones",
+      "name_en": "Cyclone Sire",
+      "set_id": 54,
+      "amount": 2
+    },
+    {
+      "name_fr": "Don d'ivoire",
+      "name_en": "Gift of Tusks",
+      "set_id": 55,
+      "amount": 2
+    },
+    {
+      "name_fr": "Poigne du Roulis",
+      "name_en": "Grip of the Roil",
+      "set_id": 56,
+      "amount": 3
+    },
+    {
+      "name_fr": "Alignement d'hèdrons",
+      "name_en": "Hedron Alignment",
+      "set_id": 57,
+      "amount": 1
+    },
+    {
+      "name_fr": "Vengeresse de l'île de Jwar",
+      "name_en": "Jwar Isle Avenger",
+      "set_id": 58,
+      "amount": 8
+    },
+    {
+      "name_fr": "Négation",
+      "name_en": "Negate",
+      "set_id": 59,
+      "amount": 8
+    },
+    {
+      "name_fr": "Serment de Jace",
+      "name_en": "Oath of Jace",
+      "set_id": 60,
+      "amount": 1
+    },
+    {
+      "name_fr": "Déni irrésistible",
+      "name_en": "Overwhelming Denial",
+      "set_id": 61,
+      "amount": 4
+    },
+    {
+      "name_fr": "Eaux du Roulis",
+      "name_en": "Roiling Waters",
+      "set_id": 62,
+      "amount": 2
+    },
+    {
+      "name_fr": "Sphinx du dernier mot",
+      "name_en": "Sphinx of the Final Word",
+      "set_id": 63,
+      "amount": 0
+    },
+    {
+      "name_fr": "Balayage",
+      "name_en": "Sweep Away",
+      "set_id": 64,
+      "amount": 5
+    },
+    {
+      "name_fr": "Enchevêtreuse de l'Oumara",
+      "name_en": "Umara Entangler",
+      "set_id": 65,
+      "amount": 8
+    },
+    {
+      "name_fr": "Objectif commun",
+      "name_en": "Unity of Purpose",
+      "set_id": 66,
+      "amount": 2
+    },
+    {
+      "name_fr": "Porteur du silence",
+      "name_en": "Bearer of Silence",
+      "set_id": 67,
+      "amount": 0
+    },
+    {
+      "name_fr": "Contaminateur effroyable",
+      "name_en": "Dread Defiler",
+      "set_id": 68,
+      "amount": 0
+    },
+    {
+      "name_fr": "Epuiseur d'essence",
+      "name_en": "Essence Depleter",
+      "set_id": 69,
+      "amount": 3
+    },
+    {
+      "name_fr": "Vrilles fouettantes",
+      "name_en": "Flaying Tendrils",
+      "set_id": 70,
+      "amount": 5
+    },
+    {
+      "name_fr": "Semeur de ravages",
+      "name_en": "Havoc Sower",
+      "set_id": 71,
+      "amount": 3
+    },
+    {
+      "name_fr": "Inverseur de la Vérité",
+      "name_en": "Inverter of Truth",
+      "set_id": 72,
+      "amount": 0
+    },
+    {
+      "name_fr": "Hurleur de Kozilek",
+      "name_en": "Kozilek's Shrieker",
+      "set_id": 73,
+      "amount": 6
+    },
+    {
+      "name_fr": "Exégète de Kozilek",
+      "name_en": "Kozilek's Translator",
+      "set_id": 74,
+      "amount": 5
+    },
+    {
+      "name_fr": "Frappe de l'oubli",
+      "name_en": "Oblivion Strike",
+      "set_id": 75,
+      "amount": 6
+    },
+    {
+      "name_fr": "Drone pillard",
+      "name_en": "Reaver Drone",
+      "set_id": 76,
+      "amount": 1
+    },
+    {
+      "name_fr": "Epurateur de crânes",
+      "name_en": "Sifter of Skulls",
+      "set_id": 77,
+      "amount": 0
+    },
+    {
+      "name_fr": "Ratisseur de ciel",
+      "name_en": "Sky Scourer",
+      "set_id": 78,
+      "amount": 7
+    },
+    {
+      "name_fr": "Drone massacreur",
+      "name_en": "Slaughter Drone",
+      "set_id": 79,
+      "amount": 5
+    },
+    {
+      "name_fr": "Endurance surnaturelle",
+      "name_en": "Unnatural Endurance",
+      "set_id": 80,
+      "amount": 6
+    },
+    {
+      "name_fr": "Visions de brutalité",
+      "name_en": "Viosions of Brutality",
+      "set_id": 81,
+      "amount": 2
+    },
+    {
+      "name_fr": "Témoin de la fin",
+      "name_en": "Witness the End",
+      "set_id": 82,
+      "amount": 7
+    },
+    {
+      "name_fr": "Barratement cadavérique",
+      "name_en": "Corpse Churn",
+      "set_id": 83,
+      "amount": 6
+    },
+    {
+      "name_fr": "Elue de Drana",
+      "name_en": "Drana's Chosen",
+      "set_id": 84,
+      "amount": 1
+    },
+    {
+      "name_fr": "Emprise des ténèbres",
+      "name_en": "Grasp of Darkness",
+      "set_id": 85,
+      "amount": 2
+    },
+    {
+      "name_fr": "Kalitas, traitre des Ghet",
+      "name_en": "Kalitas, Traitor of Ghet",
+      "set_id": 86,
+      "amount": 0
+    },
+    {
+      "name_fr": "Aruspice de Malakir",
+      "name_en": "Malakir Soothsayer",
+      "set_id": 87,
+      "amount": 2
+    },
+    {
+      "name_fr": "Meneur d'inféconds",
+      "name_en": "Null Caller",
+      "set_id": 88,
+      "amount": 2
+    },
+    {
+      "name_fr": "Supplice implacable",
+      "name_en": "Remorseless Punishment",
+      "set_id": 89,
+      "amount": 0
+    },
+    {
+      "name_fr": "Collet de goudron",
+      "name_en": "Tar Snare",
+      "set_id": 90,
+      "amount": 7
+    },
+    {
+      "name_fr": "Faim récalcitrante",
+      "name_en": "Untamed Hunger",
+      "set_id": 91,
+      "amount": 5
+    },
+    {
+      "name_fr": "Représentante des vampires",
+      "name_en": "Vampire Envoy",
+      "set_id": 92,
+      "amount": 4
+    },
+    {
+      "name_fr": "Mage aux chaînes de Zulaport",
+      "name_en": "Zulaport  Chainmage",
+      "set_id": 93,
+      "amount": 4
+    },
+    {
+      "name_fr": "Doline dévorante",
+      "name_en": "Consuming Sinkhole",
+      "set_id": 94,
+      "amount": 9
+    },
+    {
+      "name_fr": "Agresseur eldrazi",
+      "name_en": "Eldrazi Aggressor",
+      "set_id": 95,
+      "amount": 4
+    },
+    {
+      "name_fr": "Assujetisseur eldrazi",
+      "name_en": "Eldrazi Obligator",
+      "set_id": 96,
+      "amount": 0
+    },
+    {
+      "name_fr": "Immobilisateur eldrazi",
+      "name_en": "Immobilizer Eldrazi",
+      "set_id": 97,
+      "amount": 2
+    },
+    {
+      "name_fr": "Retour de Kozilek",
+      "name_en": "Kozilek's Return",
+      "set_id": 98,
+      "amount": 1
+    },
+    {
+      "name_fr": "Gueule de Kozilek",
+      "name_en": "Maw of Kozilek",
+      "set_id": 99,
+      "amount": 8
+    },
+    {
+      "name_fr": "Hémorragie de réalité",
+      "name_en": "Reality Hemorrhage",
+      "set_id": 100,
+      "amount": 5
+    },
+    {
+      "name_fr": "Chercheuse de flammes d'Akoum",
+      "name_en": "Akoum Flameseeker",
+      "set_id": 101,
+      "amount": 5
+    },
+    {
+      "name_fr": "Salve de rochers",
+      "name_en": "Boulder Salvo",
+      "set_id": 102,
+      "amount": 10
+    },
+    {
+      "name_fr": "Force brutale",
+      "name_en": "Brute Strength",
+      "set_id": 103,
+      "amount": 5
+    },
+    {
+      "name_fr": "Chandra, meneuse de flammes",
+      "name_en": "Chandra, Flamecaller",
+      "set_id": 104,
+      "amount": 1
+    },
+    {
+      "name_fr": "Monstruosité scoriacée",
+      "name_en": "Cinder Hellion",
+      "set_id": 105,
+      "amount": 4
+    },
+    {
+      "name_fr": "Engloutir dans les flammes",
+      "name_en": "Devour in Flames",
+      "set_id": 106,
+      "amount": 2
+    },
+    {
+      "name_fr": "Incarnation de la fureur",
+      "name_en": "Embodiment of Fury",
+      "set_id": 107,
+      "amount": 2
+    },
+    {
+      "name_fr": "Hâte",
+      "name_en": "Expedite",
+      "set_id": 108,
+      "amount": 8
+    },
+    {
+      "name_fr": "Chute des titans",
+      "name_en": "Fall of the Titans",
+      "set_id": 109,
+      "amount": 2
+    },
+    {
+      "name_fr": "Gobelins sciaphiles",
+      "name_en": "Goblin Dark-Dwellers",
+      "set_id": 110,
+      "amount": 3
+    },
+    {
+      "name_fr": "Traceur gobelin",
+      "name_en": "Goblin Freerunner",
+      "set_id": 111,
+      "amount": 6
+    },
+    {
+      "name_fr": "Percepteur de Kazuul",
+      "name_en": "Kazuul' Toll Collector",
+      "set_id": 112,
+      "amount": 2
+    },
+    {
+      "name_fr": "Serment de Chandra",
+      "name_en": "Oath of Chandra",
+      "set_id": 113,
+      "amount": 2
+    },
+    {
+      "name_fr": "Enrôler de force",
+      "name_en": "Press into Service",
+      "set_id": 114,
+      "amount": 2
+    },
+    {
+      "name_fr": "Assaut du pyromancien",
+      "name_en": "Pyromancer's Assault",
+      "set_id": 115,
+      "amount": 2
+    },
+    {
+      "name_fr": "Guérillero téméraire",
+      "name_en": "Reckless Bushwhacker",
+      "set_id": 116,
+      "amount": 3
+    },
+    {
+      "name_fr": "Pari de l'étincemage",
+      "name_en": "Sparkmage's Gambit",
+      "set_id": 117,
+      "amount": 6
+    },
+    {
+      "name_fr": "Larmes de Valakut",
+      "name_en": "Tears of Valakut",
+      "set_id": 118,
+      "amount": 2
+    },
+    {
+      "name_fr": "Tyrant de Valakut",
+      "name_en": "Tyrant of Valakut",
+      "set_id": 119,
+      "amount": 0
+    },
+    {
+      "name_fr": "Commando de Zada",
+      "name_en": "Zada's Commando",
+      "set_id": 120,
+      "amount": 4
+    },
+    {
+      "name_fr": "Carcasse de gestation",
+      "name_en": "Birthing Hulk",
+      "set_id": 121,
+      "amount": 2
+    },
+    {
+      "name_fr": "Suivis par la ruine ",
+      "name_en": "Ruin in their Wake",
+      "set_id": 122,
+      "amount": 2
+    },
+    {
+      "name_fr": "Invocateur de scions",
+      "name_en": "Scion Summoner",
+      "set_id": 123,
+      "amount": 7
+    },
+    {
+      "name_fr": "Drone en chasse",
+      "name_en": "Stalking Drone",
+      "set_id": 124,
+      "amount": 5
+    },
+    {
+      "name_fr": "Rédempteur abject",
+      "name_en": "Vile Redeemer",
+      "set_id": 125,
+      "amount": 2
+    },
+    {
+      "name_fr": "Briseur de mondes",
+      "name_en": "World Breaker",
+      "set_id": 126,
+      "amount": 0
+    },
+    {
+      "name_fr": "Jeune baloth",
+      "name_en": "Baloth Pup",
+      "set_id": 127,
+      "amount": 2
+    },
+    {
+      "name_fr": "Liens de mortalité",
+      "name_en": "Bonds of Mortality",
+      "set_id": 128,
+      "amount": 3
+    },
+    {
+      "name_fr": "Avaleur de la canopée",
+      "name_en": "Canopy Gorger",
+      "set_id": 129,
+      "amount": 4
+    },
+    {
+      "name_fr": "Soulévement élémental",
+      "name_en": "Elemental Uprising",
+      "set_id": 130,
+      "amount": 7
+    },
+    {
+      "name_fr": "Incarnation de la perspicacité",
+      "name_en": "Embodiment of Insight",
+      "set_id": 131,
+      "amount": 4
+    },
+    {
+      "name_fr": "Cavalerie de cerfeclairs",
+      "name_en": "Gladehart Cavalry",
+      "set_id": 132,
+      "amount": 1
+    },
+    {
+      "name_fr": "Troll moissonneur",
+      "name_en": "Harvester Troll",
+      "set_id": 133,
+      "amount": 2
+    },
+    {
+      "name_fr": "Montrer l'exemple",
+      "name_en": "Lead by Example",
+      "set_id": 134,
+      "amount": 7
+    },
+    {
+      "name_fr": "Larve du terreau",
+      "name_en": "Loam Larva",
+      "set_id": 135,
+      "amount": 6
+    },
+    {
+      "name_fr": "Etat naturel",
+      "name_en": "Natural State",
+      "set_id": 136,
+      "amount": 7
+    },
+    {
+      "name_fr": "Araignée lanceuse de rets",
+      "name_en": "Netcaster Spider",
+      "set_id": 137,
+      "amount": 6
+    },
+    {
+      "name_fr": "Nissa, voix de Zendikar",
+      "name_en": "Nissa, Voice of Zendikar",
+      "set_id": 138,
+      "amount": 0
+    },
+    {
+      "name_fr": "Jugement selon Nissa",
+      "name_en": "Nissa's Judgment",
+      "set_id": 139,
+      "amount": 2
+    },
+    {
+      "name_fr": "Serment de Nissa",
+      "name_en": "Oath of Nissa",
+      "set_id": 140,
+      "amount": 2
+    },
+    {
+      "name_fr": "Pulsation de Murasa",
+      "name_en": "Pulse of Murasa",
+      "set_id": 141,
+      "amount": 5
+    },
+    {
+      "name_fr": "Lagac sellé",
+      "name_en": "Saddleback Lagac",
+      "set_id": 142,
+      "amount": 6
+    },
+    {
+      "name_fr": "Gardien des semences",
+      "name_en": "Seed Guardian",
+      "set_id": 143,
+      "amount": 2
+    },
+    {
+      "name_fr": "Partisan sylvestre",
+      "name_en": "Sylvan Advocate",
+      "set_id": 144,
+      "amount": 2
+    },
+    {
+      "name_fr": "Gardesente des Tajuru",
+      "name_en": "Tajuru Pathwarden",
+      "set_id": 145,
+      "amount": 6
+    },
+    {
+      "name_fr": "Vignes de la recluse",
+      "name_en": "Vines of the Recluse",
+      "set_id": 146,
+      "amount": 5
+    },
+    {
+      "name_fr": "Résurgence de Zendikar",
+      "name_en": "Zendikar Resurgent",
+      "set_id": 147,
+      "amount": 1
+    },
+    {
+      "name_fr": "Drone écorcheur",
+      "name_en": "Flayer Drone",
+      "set_id": 148,
+      "amount": 2
+    },
+    {
+      "name_fr": "Fondeur d'esprit",
+      "name_en": "Mindmelter",
+      "set_id": 149,
+      "amount": 1
+    },
+    {
+      "name_fr": "Greffeur de vide",
+      "name_en": "Void Grafter",
+      "set_id": 150,
+      "amount": 2
+    },
+    {
+      "name_fr": "Ayli, pélerine éternelle",
+      "name_en": "Ayli, Eternal Pilgrim",
+      "set_id": 151,
+      "amount": 1
+    },
+    {
+      "name_fr": "Baloth infécond",
+      "name_en": "Baloth Null",
+      "set_id": 152,
+      "amount": 2
+    },
+    {
+      "name_fr": "Vampire d'Havrefalaise",
+      "name_en": "Cliffhaven Vampire",
+      "set_id": 153,
+      "amount": 3
+    },
+    {
+      "name_fr": "Auxilliaire de Joraga",
+      "name_en": "Joraga Auxiliary",
+      "set_id": 154,
+      "amount": 3
+    },
+    {
+      "name_fr": "Jori En, plongeuse des ruines",
+      "name_en": "Jori En, Ruin Diver",
+      "set_id": 155,
+      "amount": 0
+    },
+    {
+      "name_fr": "Mina et Denn, nés de la nature",
+      "name_en": "Mina and Denn, Wildborn",
+      "set_id": 156,
+      "amount": 1
+    },
+    {
+      "name_fr": "Mage réflecteur",
+      "name_en": "Reflector Mage",
+      "set_id": 157,
+      "amount": 3
+    },
+    {
+      "name_fr": "Chasseuse implacable",
+      "name_en": "Relentless Hunter",
+      "set_id": 158,
+      "amount": 3
+    },
+    {
+      "name_fr": "Mage chassorage",
+      "name_en": "Stormchaser Mage",
+      "set_id": 159,
+      "amount": 5
+    },
+    {
+      "name_fr": "Instructrice d'armes",
+      "name_en": "Weapons Trainer",
+      "set_id": 160,
+      "amount": 4
+    },
+    {
+      "name_fr": "Scie d'os",
+      "name_en": "Bone Saw",
+      "set_id": 161,
+      "amount": 6
+    },
+    {
+      "name_fr": "Griffes du capitaine",
+      "name_en": "Captain's Claws",
+      "set_id": 162,
+      "amount": 1
+    },
+    {
+      "name_fr": "Cape chitineuse",
+      "name_en": "Chitinous Cloak",
+      "set_id": 163,
+      "amount": 2
+    },
+    {
+      "name_fr": "Rampeur hèdron",
+      "name_en": "Hedron Crawler",
+      "set_id": 164,
+      "amount": 5
+    },
+    {
+      "name_fr": "Lanterne du voyant",
+      "name_en": "Seer's Lantern",
+      "set_id": 165,
+      "amount": 6
+    },
+    {
+      "name_fr": "Chef-d'oeuvre du forgepierre",
+      "name_en": "Stoneforge Masterwork",
+      "set_id": 166,
+      "amount": 1
+    },
+    {
+      "name_fr": "Harnais d'enjambeur",
+      "name_en": "Strider Harness",
+      "set_id": 167,
+      "amount": 2
+    },
+    {
+      "name_fr": "Landes de cendres",
+      "name_en": "Cinder Barrens",
+      "set_id": 168,
+      "amount": 2
+    },
+    {
+      "name_fr": "Croisée corrompue",
+      "name_en": "Corrupted Crossroads",
+      "set_id": 169,
+      "amount": 0
+    },
+    {
+      "name_fr": "Vestige croulant",
+      "name_en": "Crumbling Vestige",
+      "set_id": 170,
+      "amount": 7
+    },
+    {
+      "name_fr": "Bourbiers sifflants",
+      "name_en": "Hissing Quagmire",
+      "set_id": 171,
+      "amount": 1
+    },
+    {
+      "name_fr": "Campement d'objecteurs",
+      "name_en": "Holdout Settlement",
+      "set_id": 172,
+      "amount": 6
+    },
+    {
+      "name_fr": "Rivière sinueuse",
+      "name_en": "Meandering River",
+      "set_id": 173,
+      "amount": 1
+    },
+    {
+      "name_fr": "Bassin miroir",
+      "name_en": "Mirrorpool",
+      "set_id": 174,
+      "amount": 1
+    },
+    {
+      "name_fr": "Cimes aiguilles",
+      "name_en": "Needle Spires",
+      "set_id": 175,
+      "amount": 1
+    },
+    {
+      "name_fr": "Ruines d'Oran-Rief",
+      "name_en": "Ruins of Oran-Rief",
+      "set_id": 176,
+      "amount": 1
+    },
+    {
+      "name_fr": "Décombres de Porte des Mers",
+      "name_en": "Sea Gate Wreckage",
+      "set_id": 177,
+      "amount": 1
+    },
+    {
+      "name_fr": "Ossuaire submergé",
+      "name_en": "Submerged Boneyard",
+      "set_id": 178,
+      "amount": 1
+    },
+    {
+      "name_fr": "Gorge du massif",
+      "name_en": "Timber Gorge",
+      "set_id": 179,
+      "amount": 1
+    },
+    {
+      "name_fr": "Immensité tranquille",
+      "name_en": "Tranquil Expanse",
+      "set_id": 180,
+      "amount": 2
+    },
+    {
+      "name_fr": "Rivages inconnus",
+      "name_en": "Unknown Shores",
+      "set_id": 181,
+      "amount": 6
+    },
+    {
+      "name_fr": "Fumerolle vagabonde",
+      "name_en": "Wandering Fumarole",
+      "set_id": 182,
+      "amount": 1
+    },
+    {
+      "name_fr": "Fumerolle vagabonde",
+      "name_en": "Wandering Fumarole",
+      "set_id": 182,
+      "amount": 1
+    },
+    {
+      "name_fr": "Lande",
+      "name_en": "Wastes",
+      "set_id": 183,
+      "amount": 6
+    },
+    {
+      "name_fr": "Lande",
+      "name_en": "Wastes",
+      "set_id": 184,
+      "amount": 5
+    }
+  ]
+}

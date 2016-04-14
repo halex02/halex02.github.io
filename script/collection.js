@@ -10,3 +10,16 @@ var G_EDITIONS = $(".edition-name") ;
  */
 var G_INITIAL_CONTENT_SAVE = $("#loadable-content").clone() ;
 
+/**
+ * Récupère le contenu d'une collection dans le fichier json correspondant.
+ */
+var getCollection = function (code){
+
+}
+
+/**
+ * Récupère l'édition correspondant au code passé en paramètre
+ */
+var getEdition = function (code){
+
+}

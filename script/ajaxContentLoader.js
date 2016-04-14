@@ -17,16 +17,12 @@ var G_LAST_URL_SAVE = null ;
 /**
  * Fonction de callback qui renvoie un log détaillant les données chargées par la requête AJAX en cas de réussite.
  */
-function ajaxRequestCompletion(url)
-{
-    
+var ajaxRequestCompletion = function (url){
     console.log("Completed AJAX request : ".concat(url).concat(" #loadableContent").concat(" has been loaded.")) ;
 
 }
 
-function mouseEnterHandler()
-{
-    
+var mouseEnterHandler = function (){
     console.log("DOM Element <a> Entered") ;
 
     /**
@@ -38,28 +34,16 @@ function mouseEnterHandler()
     /**
      * Vérification de la dernière adresse pointée qui a généré une requête AJAX.
      */
-    if (G_LAST_URL_SAVE != $(this).attr("href"))
-    {
-	
+    if (G_LAST_URL_SAVE != $(this).attr("href")){
 	G_LAST_URL_SAVE = $(this).attr("href") ;
-	l_loaded_content = G_INITIAL_CONTENT_SAVE.clone().load(G_LAST_URL_SAVE.concat(" #loadableContent"),
-									ajaxRequestCompletion(G_LAST_URL_SAVE)) ;
-
+	l_loaded_content = G_INITIAL_CONTENT_SAVE.clone().load(G_LAST_URL_SAVE.concat(" #loadableContent"), ajaxRequestCompletion(G_LAST_URL_SAVE)) ;
 	$(".post-list li").css("background-color","#0E2225");
 	$("#post-include").replaceWith(l_loaded_content);
 	$(this).parent().parent().css("background-color","#378695") ;
-	
-    }
-    else
-    {
-
+    }else{
 	$("#post-include").replaceWith(G_INITIAL_CONTENT_SAVE.clone()) ;
 	$(".post-list li").css("background-color","#0E2225");
-
 	G_LAST_URL_SAVE = null ;
-
     }
-
 }
-
 G_LINKS.mouseenter(mouseEnterHandler) ;
