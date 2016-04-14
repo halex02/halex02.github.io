@@ -5,7 +5,6 @@ date: 2016-04-15 00:54:00
 categories: general
 comments: true
 ---
-
 Explication du titre : j'adore Portal et je suis complètement dans le cirage vu qu'il est presque 1:00 du matin et que je trouve pas le sommeil donc je ne risque pas de trouver mieux.
 
 Donc non mon blog n'est pas mort, j'ai investi assez de temps dans sa création pour ne pas avoir envie de le laisser tomber comme ça, surtout qu'au final j'aime bien écrire. Il faudrait que je m'astreigne à écrire un article par semaine. Sur quoi ? Sur ce dont j'ai envie de parler tout simplement.
