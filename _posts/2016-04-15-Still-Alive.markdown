@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Still Alive !"
-date: 2016-04-15 00:54:00
+date: 2016-04-15 00:54:00 +0100
 categories: general
 comments: true
 ---

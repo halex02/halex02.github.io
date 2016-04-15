@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Les fins sont toujours tristes !"
-date: 2016-04-15 01:28:25
+date: 2016-04-15 01:28:25 +0100
 categories: littérature
 comments: true
 ---
