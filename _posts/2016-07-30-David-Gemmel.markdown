@@ -7,8 +7,8 @@ comments: true
 ---
 
 Bonsoir tout le monde,  
-Le 28 Juillet 2006, un grand écrivain nous quittait, suite à un problème cardiaque.
-RIP David Gemmel. Puissiez vous parcourir le Vide pour toujours en compagnie des héros dont vous avez compté les aventures.
+Le 28 Juillet 2006, un grand écrivain nous quittait, suite à un problème cardiaque.  
+_RIP David Gemmel. Puissiez vous parcourir le Vide pour toujours en compagnie des héros dont vous avez compté les aventures._  
 Il y a 3 jours, je me connecte sur twitter et je vois le rappel de cette date anniversaire par les éditions Bragelonne, j'ai donc décidé de sauter sur cette occasion de parler d'un de mes auteurs favori (surtout de son chef-d'oeuvre en fait). Donc en route...
 
 David Gemmel a presque toujours vécu de sa plume, d'abord en tant que journaliste, puis en tant qu'écrivain. Son premier et plus célèbre roman, Légende, a d'ailleurs causé son renvoie d'un des journaux pour lesquels il a travaillé (si vous voulez les détails, je vous laisse chercher, il y a une interview vidéo qui en parle, cette petite histoire vaut le détour :p).  
