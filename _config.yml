@@ -20,3 +20,5 @@ github_username:  halex02
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-hacker
