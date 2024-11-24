@@ -1,0 +1,24 @@
+/* Thème custom */
+body.theme-base-0g {
+	/* background-color: #84a6dc; */
+	/* background-color: #5B749C; */
+	background-color: #E4EDFB ;
+	color: #161F1E;
+}
+
+.theme-base-0g .post-date, .theme-base-0g .masthead-title small {
+	color: #8D929A ;
+}
+
+.theme-base-0g .sidebar,
+.theme-base-0g .sidebar-toggle:active,
+.theme-base-0g #sidebar-checkbox:checked ~ .sidebar-toggle {
+  /* background-color: #106F5F; */
+  background-color: #004439;
+}
+.theme-base-0g .container a,
+.theme-base-0g .sidebar-toggle,
+.theme-base-0g .related-posts li a:hover {
+  /* color: #106F5F; */
+  color: #004439;
+}
