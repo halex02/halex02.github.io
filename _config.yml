@@ -3,7 +3,7 @@ title:               Lanyon
 tagline:             'A Jekyll theme'
 description:         ''
 url:                 http://lanyon.getpoole.com
-baseurl:             ''
+baseurl:             'http://halex02.github.io'
 paginate:            5
 permalink:           pretty
 
