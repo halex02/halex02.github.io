@@ -281,6 +281,7 @@ DEPENDENCIES
   github-pages (~> 232)
   github-pages-health-check (~> 1.18, >= 1.18.2)
   jekyll (~> 3.10)
+  jekyll-github-metadata (~> 2.16, >= 2.16.1)
   jekyll-paginate (~> 1.1)
 
 BUNDLED WITH
