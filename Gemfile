@@ -3,8 +3,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem "jekyll"
-gem "jekyll-paginate"
-gem "base64"
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-gem "csv"
+gem 'jekyll', '~> 3.10'
+gem 'jekyll-paginate', '~> 1.1'
+gem 'github-pages-health-check', '~> 1.18', '>= 1.18.2'
+gem 'github-pages', '~> 232'
