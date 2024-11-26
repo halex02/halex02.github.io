@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitæ
+permalien: cv.html
 ---
 <section class="header">
   <h2>{{ site.author.name }}</h2>

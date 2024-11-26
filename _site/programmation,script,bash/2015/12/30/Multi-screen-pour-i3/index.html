@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Multiscreen pour i3. &middot; Lanyon
+    
+  </title>
+
+  
+  <link rel="canonical" href="http://localhost:4000/programmation,script,bash/2015/12/30/Multi-screen-pour-i3/">
+  
+
+  <link rel="stylesheet" href="http://localhost:4000/public/css/poole.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/css/syntax.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/css/lanyon.css">
+  <link rel="stylesheet" href="http://localhost:4000/public/css/custom.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="http://localhost:4000/public/book.png">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
+
+   
+</head>
+
+
+  <body class="theme-base-0g">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p></p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="http://localhost:4000/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/cv/">Curriculum Vitæ</a>
+        
+      
+    
+      
+        
+      
+    
+
+    <a class="sidebar-nav-item" href="https://github.com/halex02/halex02.github.io">Dépot Github du site</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2024. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Lanyon</a>
+            <small>A Jekyll theme</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Multiscreen pour i3.</h1>
+  <span class="post-date">30 Dec 2015</span>
+  <p>Bonsoir les amateurs de pingouins !<br />
+Voici 2 petits scripts bash que j’ai écrit pour gérer les multiscreens avec le windows manager que j’utilise sur mon netbook : i3.</p>
+
+<p>###Script de déconnexion :</p>
+
+<p>Du coup, on commence par la fin : le script qui permet de déconnecter TOUS les moniteurs secondaires, c’est le plus crade des deux mais c’est surtout celui des deux qui demande le moins d’adaptations de la part de l’utilisateur (une unique variable à modifier).</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+</pre></td><td class="code"><pre><span class="c">#!/usr/bin/env bash</span>
+
+<span class="c">#Mettre dans cette variable la regex donnant l'ensemble des sorties</span>
+<span class="c">#qui peuvent être désactivées.</span>
+<span class="nv">OUTPUTS</span><span class="o">=</span><span class="s2">"(VGA1|HDMI1)"</span>
+
+<span class="k">for </span>i <span class="k">in</span> <span class="si">$(</span>xrandr | egrep <span class="nv">$OUTPUTS</span> | egrep <span class="s2">" connected"</span> | <span class="nb">cut</span> <span class="nt">-d</span><span class="s1">' '</span> <span class="nt">-f1</span><span class="si">)</span>
+<span class="k">do
+    </span><span class="nb">echo</span> <span class="s1">'désactivation de '</span><span class="nv">$i</span><span class="s1">' en cours :'</span>
+
+    xrandr <span class="nt">--output</span> <span class="nv">$i</span> <span class="nt">--off</span> <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s2">"xrandr retourne "</span><span class="nv">$?</span><span class="s2">". Désactivation de "</span><span class="nv">$i</span><span class="s2">" effectuée."</span>
+<span class="k">done
+
+</span><span class="nb">exit </span>0
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Il suffit de mettre dans la variable <code class="language-plaintext highlighter-rouge">OUTPUT</code> la regex, comme indiqué dans le commentaire. Ensuite le programme effectue une boucle for sur un truc assez peu digeste, que je vais détailler un peu :<br />
+<code class="language-plaintext highlighter-rouge">xrandr</code> quand on ne lui passe aucun paramètre renvoie des infos détaillées sur l’ensembles des sorties vidéos de l’ordinateur, on filtre ça avec egrep pour n’avoir que les sorties secondaires (on ne veut pas déconnecter la sortie <code class="language-plaintext highlighter-rouge">LVDS1</code>, par exemple, vu que c’est l’écran principal du netbook), on rafine ça encore une fois avec egrep en lui demandant de rechercher le motif <code class="language-plaintext highlighter-rouge">" connected"</code> (l’espace avant connected est important), et enfin on fait un <code class="language-plaintext highlighter-rouge">cut -d' ' -f1</code> pour ne récupérer que les noms des sorties effectivement connectées, qu’il ne reste plus qu’à désactiver avec <code class="language-plaintext highlighter-rouge">xrandr --output $i --off</code>. Et le tour est joué.</p>
+
+<p>###Script de connexion :
+Ce script ci est plus simple mais doit être adapté pour chaque moniteur utilisé en changeant la résolution et la sortie vidéo utilisée. Il faut donc faire un copier-coller chaque fois qu’on travaille avec un nouveau moniteur.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="code"><pre><span class="c">#!/usr/bin/env bash</span>
+
+xrandr <span class="nt">--output</span> LVDS1 <span class="nt">--primary</span> <span class="nt">--mode</span> 1366x768
+xrandr <span class="nt">--output</span> VGA1 <span class="nt">--mode</span> 1280x1024
+xrandr <span class="nt">--auto</span> <span class="nt">--output</span> VGA1 <span class="nt">--right-of</span> LVDS1
+i3-msg <span class="s1">'workspace 10'</span> <span class="o">&amp;&amp;</span> i3-msg <span class="s1">'move workspace to output VGA1'</span> <span class="o">&amp;&amp;</span> i3-msg <span class="s1">'rename workspace 10 to "10:VGA"'</span>
+feh  <span class="nt">--bg-scale</span> <span class="s1">'/home/halex02/Pictures/background/orion_nebula.jpg'</span> 
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>On commence par dire quel est l’écran principal (ligne 3), puis on active la sortie secondaire (ligne 4), ici <code class="language-plaintext highlighter-rouge">VGA1</code>, et on lui passe la résolution qu’elle doit utiliser. Ensuite on positionne les deux moniteurs relativement l’un par rapport à l’autre (ligne 5). Ensuite, on demande à i3 de déposer un bureau virtuel sur le moniteur secondaire, qu’on peut renommer. Enfin la dernière ligne (qui suppose que <code class="language-plaintext highlighter-rouge">feh</code> soit installé) sert à régler les bugs d’affichage du fond d’écran du bureau (je suppose qu’ils sont dûs au fait que les moniteurs n’ont pas la même résolution).</p>
+
+</div>
+
+
+<div class="related">
+  <h2>Related posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2024/11/26/site-reconstruction/">
+            Reconstruction du site
+            <small>26 Nov 2024</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2020/04/03/introducing-lanyon/">
+            Introducing Lanyon
+            <small>03 Apr 2020</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2020/04/02/example-content/">
+            Example content
+            <small>02 Apr 2020</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src='/public/js/script.js'></script>
+  </body>
+</html>

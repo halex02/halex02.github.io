@@ -1,7 +1,7 @@
 # Setup
 title:               Lanyon
 tagline:             'A Jekyll theme'
-description:         ''
+description:         'Site personnel réalisé avec le thème Lanyon pour Jekyll'
 url:                 https://halex02.github.io
 baseurl:             ''
 paginate:            5
@@ -10,7 +10,7 @@ permalink:           pretty
 # About/contact
 author:
   name:              Alexandre Moret
-  url:               https://twitter.com/mdo
+  url:               https://twitter.com/halex02
   email:             alexandre.houplon.etu@univ-lille.fr
 
 # Gems

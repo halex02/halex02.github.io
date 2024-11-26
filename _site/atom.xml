@@ -4,13 +4,57 @@
  <title>Lanyon</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-11-26T10:00:03+01:00</updated>
+ <updated>2024-11-26T12:23:54+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Alexandre Moret</name>
    <email>alexandre.houplon.etu@univ-lille.fr</email>
  </author>
 
+ 
+ <entry>
+   <title>Reconstruction du site</title>
+   <link href="http://localhost:4000/2024/11/26/site-reconstruction/"/>
+   <updated>2024-11-26T00:00:00+01:00</updated>
+   <id>http://localhost:4000/2024/11/26/site-reconstruction</id>
+   <content type="html">&lt;p&gt;Mon site est en cours de reconstruction après plusieurs années d’abandon.
+J’ai laissé tombé le thème &lt;a href=&quot;https://pages-themes.github.io/hacker/&quot;&gt;hacker&lt;/a&gt; − je l’avais bricolé en dépit du bon sens et rendu impossible à maintenir −
+pour le remplacer par le thème &lt;a href=&quot;https://lanyon.getpoole.com&quot;&gt;lanyon&lt;/a&gt; dont j’ai retouché le thème en surchargeant quelques styles de base dans un fichier &lt;code&gt;custom.css&lt;/code&gt;
+(ne pas retoucher les fichiers de base du thème ! j’ai retenu la leçon).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* Thème custom */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.theme-base-0g&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#E4EDFB&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#161F1E&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.theme-base-0g&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.post-date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.theme-base-0g&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.masthead-title&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;small&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#8D929A&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.theme-base-0g&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.sidebar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.theme-base-0g&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.sidebar-toggle&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:active&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.theme-base-0g&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;#sidebar-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.sidebar-toggle&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#004439&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.theme-base-0g&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.container&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.theme-base-0g&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.sidebar-toggle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.theme-base-0g&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.related-posts&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#004439&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Je vais probablement le modifier &lt;del&gt;un peu plus&lt;/del&gt; beaucoup plus pour tenter de l’utiliser pour l’interface de consultation 
+de mon projet d’édition numérique pour mon mémoire.&lt;/p&gt;
+
+&lt;p&gt;J’ai jeté la plupart des posts de blog que j’avais écrit à l’époque : je n’aime pas la manière dont je les ai écrits 
+(si quelqu’un a envie de jauger mes qualités d’écriture aujourd’hui, &lt;a href=&quot;https://insula.univ-lille.fr/2021/04/04/linscription-latine-de-la-source-de-lescaut/&quot;&gt;ceci me parait bien&lt;/a&gt;) 
+et un nombre conséquent d’entre-eux étaient douloureux à relire (ils parlaient de ma santé mentale dans mes pires moments de dépression). 
+J’en ai juste conservé quatre (plus les posts d’exemple du thème Lanyon que je jetterai plus tard).&lt;/p&gt;
+
+&lt;p&gt;Et sinon la principale raison de ressortir ce site, c’était d’héberger un &lt;a href=&quot;http://localhost:4000/cv&quot;&gt;CV en ligne&lt;/a&gt; au format HTML.&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Introducing Lanyon</title>
@@ -201,6 +245,131 @@
 &lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Lanyon.&lt;/p&gt;
 
 &lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>David Gemmel, écrivain de Légende</title>
+   <link href="http://localhost:4000/litt%C3%A9rature/2016/07/31/David-Gemmel/"/>
+   <updated>2016-07-31T18:21:51+02:00</updated>
+   <id>http://localhost:4000/litt%C3%A9rature/2016/07/31/David-Gemmel</id>
+   <content type="html">&lt;p&gt;Bonsoir tout le monde,&lt;br /&gt;
+Le 28 Juillet 2006, un grand écrivain nous quittait, suite à un problème cardiaque.&lt;br /&gt;
+&lt;em&gt;RIP David Gemmel. Puissiez vous parcourir le Vide pour toujours en compagnie des héros dont vous avez compté les aventures.&lt;/em&gt;&lt;br /&gt;
+Il y a 3 jours, je me connecte sur twitter et je vois le rappel de cette date anniversaire par les éditions Bragelonne, j’ai donc décidé de sauter sur cette occasion de parler d’un de mes auteurs favori (surtout de son chef-d’oeuvre en fait). Donc en route…&lt;/p&gt;
+
+&lt;p&gt;David Gemmel a presque toujours vécu de sa plume, d’abord en tant que journaliste, puis en tant qu’écrivain. Son premier et plus célèbre roman, Légende, a d’ailleurs causé son renvoie d’un des journaux pour lesquels il a travaillé (si vous voulez les détails, je vous laisse chercher, il y a une interview vidéo qui en parle, cette petite histoire vaut le détour :p).&lt;br /&gt;
+Je l’ai justement découvert grâce à Légende, “premier” volet de la saga Drenaï, relatant la bataille de Dros Delnoch (forteresse Drenaïe), face aux hordes de Nadirs unifiées sous la bannière du conquérant Ulric. Pendant qu’il écrivait Légende, David Gemmel était dans l’attente de résultats d’examens concernant un éventuel cancer, le diagnostic déterminerait la conclusion de l’histoire : s’il était positif, la forteresse Drenaïe tomberait aux mains des Nadirs (représentation de la maladie s’attaquant à lui), sinon elle résisterait… et elle a résisté (qui a parlé de &lt;em&gt;catharsis&lt;/em&gt; ?! Qu’il se dénonce, il a gagné un bon point !), ouvrant la porte à tout un univers dont la richesse égale à mes vieux celle de l’univers de Tolkien (sauf que c’est mieux écrit… je parle mal ! Je m’en fiche : j’arrêterais le trashtalk le jour où j’arrêterais de respirer).&lt;/p&gt;
+
+&lt;p&gt;Bon, attaquons nous à cette saga maintenant, on reviendra un peu sur son génial créateur et ses autres oeuvres après… (Le lendemain :) En fait non, je ne vais pas vous faire une description détaillée de l’Univers, la flemme, faites comme moi : lisez cette série et appréciez sa richesse ! Nous allons juste nous arrêter sur deux ou trois personnages que je trouve emblématiques dans cette série et pourquoi je les aime. 
+Commençons par le plus épique de tous : Druss. Druss est une Légende (avec un grand “L” s’il-vous-plait !), et pourtant il n’est rien de plus qu’un homme, aucun pouvoir magique, bardé de cicatrices… décrit comme ça il a l’air plutôt quelconque et pourtant, il est doté d’un charisme extraordinaire et d’une grande renommée, à tel point qu’il est respecté (révéré ?) même par ses ennemis. Il a beau être un Drenaï, les Nadirs le respectent et le nomment Marche-Mort (un topos récurrent dans les histoires mettant Druss en scène : la Mort marche dans ses traces). On peut dire sans exagérer que Druss est un avatar du courage, de l’abnégation et de l’honneur, tout en restant profondément humain avec ses forces, ses faiblesses et ses tourments, ce qui permet dans une certaine mesure de s’identifier au personnage et de s’y attacher.&lt;br /&gt;
+Un autre personnage que j’aime beaucoup dans cet univers est Waylander l’assassin, un personnage sombre et torturé, au sens moral plus que douteux. Ni bon, ni mauvais, il tue pour l’argent ; argent qu’il n’utilise pas, bien qu’il soit immensément riche. Il passe sa vie à arpenter les routes, arpentant le monde de contrat en contrat. Tout comme Druss, il est une légende, ses “exploits” sont contés par les bardes dans les tavernes. Voilà le personnage tel qu’on le rencontre au début de ses aventures, après qu’il ait commis le meurtre qui met fin à l’Empire Drenaï. Mais le personnage n’est pas foncièrement mauvais, il est devenu cette instance du chaos à la suite du meurtre de sa famille, passant des années à traquer les assassins et noircissant son âme par la même occasion. Son histoire (sa trilogie) commence avec la rencontre de Dardalion, prêtre de la Source, qui l’ammène par inadvertance sur le chemin de la rédemption, tout en s’aventurant lui-même sur celui de la guerre…&lt;br /&gt;
+J’avais songé à parler de &lt;em&gt;Tenaka Khan&lt;/em&gt; et de &lt;em&gt;Skilgannon le Damné&lt;/em&gt;, mais je vais m’abstenir finalement : j’ai déjà eu assez de mal à parler de Druss et Waylander sans trop spoiler mais, je l’espère, en donnant envie de découvrir leurs aventures.&lt;/p&gt;
+
+&lt;p&gt;Concernant la saga Drenaï en elle-même, je me contenterais de vous orienter vers wikipédia et les forums de fan, sur ces derniers vous pourrez découvrir le débat concernant l’ordre de lecture de ses 11 volets (ordre de parution ou chronologie de l’univers ?).&lt;/p&gt;
+
+&lt;p&gt;Revenons donc un peu sur l’auteur. Pas besoin de vous dire que la saga Drenaï m’a emballé, je pense que c’est clair. Je place sans hésitation David Gemmel parmi les dieux de la littérature au côté de Tolkien, Lovecraft… et pourtant je n’ai lu qu’une seule de ses séries, car il y’en a encore quelques autres que j’ai à découvrir.&lt;br /&gt;
+Je ne sais pas trop comment conclure cet article (enfin ce &lt;em&gt;ramassis-d’idée-que-j’ai-mis-3-jours-à-pondre&lt;/em&gt; serait une meilleure description), donc je vais juste vous dire : “Salut les kiwis, à bientôt”.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Les fins sont toujours tristes !</title>
+   <link href="http://localhost:4000/litt%C3%A9rature/2016/04/15/Les-fins-sont-toujours-tristes/"/>
+   <updated>2016-04-15T02:28:25+02:00</updated>
+   <id>http://localhost:4000/litt%C3%A9rature/2016/04/15/Les-fins-sont-toujours-tristes</id>
+   <content type="html">&lt;p&gt;Non, je ne vais pas donner dans le glauque ou le morbide, malgré ce que le titre peut laisser paraitre, en fait on va bien parler de bouquins cette nuit.&lt;br /&gt;
+Il y a un truc avec les romans qui me laisse toujours un peu triste, c’est quand j’arrive à la fin du livre/de la saga. On passe du temps sur ces histoires, on s’attache au(x) personnage(s) (enfin si l’auteur a bien fait son boulot, mais dans le cas contraire, il y a de bonnes chances que le livre finisse sa vie oubliée sur une étagère sans avoir été terminée parce que c’est de la merde !), on se met même parfois à leur place, suivant la façon dont c’est écrit, bref on s’investit émotionnellement. Le hic, c’est qu’au bout d’un moment, on arrive à la dernière page, et là il y a toujours ce petit pincement au coeur.&lt;br /&gt;
+Bon, ça serait peut-être utile de le préciser, je parle surtout de space opéra et d’heroic fantasy. Je n’ai jamais ressenti ça avec un roman policier, j’arrive tout simplement pas à accrocher : je veux du rêve, de l’épique et on n’en trouve pas dedans.
+Et comme les bibliovores (bibliophiles ? Osef. Employez le terme qui vous plaira) sont tous masochistes, ils trouvent une nouvelle série à dévorer et ainsi de suite tel des Sysiphes de la littérature.&lt;br /&gt;
+Bon les persifleurs, vous allez me rétorquer que je n’ai qu’à le relire mon roman, et je vous réponds que ouvrir un livre pour la première fois et l’ouvrir pour le n-ième fois, ce n’est pas pareil : l’histoire est connu, le charme est rompu (oui ça rime, c’est la classe).&lt;/p&gt;
+
+&lt;p&gt;C’était ma réflexion du jour, que je voulais partager, après avoir fini un roman dans le train. Sur ce bonne nuit les kiwis !&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Multiscreen pour i3.</title>
+   <link href="http://localhost:4000/programmation,script,bash/2015/12/30/Multi-screen-pour-i3/"/>
+   <updated>2015-12-30T19:01:35+01:00</updated>
+   <id>http://localhost:4000/programmation,script,bash/2015/12/30/Multi-screen-pour-i3</id>
+   <content type="html">&lt;p&gt;Bonsoir les amateurs de pingouins !&lt;br /&gt;
+Voici 2 petits scripts bash que j’ai écrit pour gérer les multiscreens avec le windows manager que j’utilise sur mon netbook : i3.&lt;/p&gt;
+
+&lt;p&gt;###Script de déconnexion :&lt;/p&gt;
+
+&lt;p&gt;Du coup, on commence par la fin : le script qui permet de déconnecter TOUS les moniteurs secondaires, c’est le plus crade des deux mais c’est surtout celui des deux qui demande le moins d’adaptations de la part de l’utilisateur (une unique variable à modifier).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/env bash&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#Mettre dans cette variable la regex donnant l&apos;ensemble des sorties&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#qui peuvent être désactivées.&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;OUTPUTS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;(VGA1|HDMI1)&quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;i &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;xrandr | egrep &lt;span class=&quot;nv&quot;&gt;$OUTPUTS&lt;/span&gt; | egrep &lt;span class=&quot;s2&quot;&gt;&quot; connected&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; &apos;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f1&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;do
+    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;désactivation de &apos;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; en cours :&apos;&lt;/span&gt;
+
+    xrandr &lt;span class=&quot;nt&quot;&gt;--output&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--off&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;xrandr retourne &quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$?&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;. Désactivation de &quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot; effectuée.&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;done
+
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;0
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Il suffit de mettre dans la variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OUTPUT&lt;/code&gt; la regex, comme indiqué dans le commentaire. Ensuite le programme effectue une boucle for sur un truc assez peu digeste, que je vais détailler un peu :&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt; quand on ne lui passe aucun paramètre renvoie des infos détaillées sur l’ensembles des sorties vidéos de l’ordinateur, on filtre ça avec egrep pour n’avoir que les sorties secondaires (on ne veut pas déconnecter la sortie &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LVDS1&lt;/code&gt;, par exemple, vu que c’est l’écran principal du netbook), on rafine ça encore une fois avec egrep en lui demandant de rechercher le motif &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot; connected&quot;&lt;/code&gt; (l’espace avant connected est important), et enfin on fait un &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cut -d&apos; &apos; -f1&lt;/code&gt; pour ne récupérer que les noms des sorties effectivement connectées, qu’il ne reste plus qu’à désactiver avec &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr --output $i --off&lt;/code&gt;. Et le tour est joué.&lt;/p&gt;
+
+&lt;p&gt;###Script de connexion :
+Ce script ci est plus simple mais doit être adapté pour chaque moniteur utilisé en changeant la résolution et la sortie vidéo utilisée. Il faut donc faire un copier-coller chaque fois qu’on travaille avec un nouveau moniteur.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/env bash&lt;/span&gt;
+
+xrandr &lt;span class=&quot;nt&quot;&gt;--output&lt;/span&gt; LVDS1 &lt;span class=&quot;nt&quot;&gt;--primary&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--mode&lt;/span&gt; 1366x768
+xrandr &lt;span class=&quot;nt&quot;&gt;--output&lt;/span&gt; VGA1 &lt;span class=&quot;nt&quot;&gt;--mode&lt;/span&gt; 1280x1024
+xrandr &lt;span class=&quot;nt&quot;&gt;--auto&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--output&lt;/span&gt; VGA1 &lt;span class=&quot;nt&quot;&gt;--right-of&lt;/span&gt; LVDS1
+i3-msg &lt;span class=&quot;s1&quot;&gt;&apos;workspace 10&apos;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; i3-msg &lt;span class=&quot;s1&quot;&gt;&apos;move workspace to output VGA1&apos;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; i3-msg &lt;span class=&quot;s1&quot;&gt;&apos;rename workspace 10 to &quot;10:VGA&quot;&apos;&lt;/span&gt;
+feh  &lt;span class=&quot;nt&quot;&gt;--bg-scale&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;/home/halex02/Pictures/background/orion_nebula.jpg&apos;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;On commence par dire quel est l’écran principal (ligne 3), puis on active la sortie secondaire (ligne 4), ici &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VGA1&lt;/code&gt;, et on lui passe la résolution qu’elle doit utiliser. Ensuite on positionne les deux moniteurs relativement l’un par rapport à l’autre (ligne 5). Ensuite, on demande à i3 de déposer un bureau virtuel sur le moniteur secondaire, qu’on peut renommer. Enfin la dernière ligne (qui suppose que &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feh&lt;/code&gt; soit installé) sert à régler les bugs d’affichage du fond d’écran du bureau (je suppose qu’ils sont dûs au fait que les moniteurs n’ont pas la même résolution).&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Il faut bien commencer quelque part...</title>
+   <link href="http://localhost:4000/general/2015/12/09/Il-faut-bien-commencer-quelque-part/"/>
+   <updated>2015-12-09T13:47:50+01:00</updated>
+   <id>http://localhost:4000/general/2015/12/09/Il-faut-bien-commencer-quelque-part</id>
+   <content type="html">&lt;p&gt;Bon ça y est la construction de ce  blog est enfin &lt;em&gt;fini&lt;/em&gt; (il va falloir que je me trouve un nouveau projet maintenant). Il reste des choses à améliorer/ajouter mais je peux m’en servir alors, hop, on l’inaugure avec cet article stupide ^^ ! Déjà merci &lt;a href=&quot;http://kobboee.blogspot.fr/&quot;&gt;Kobboë&lt;/a&gt; pour l’idée de permettre une preview des articles sur la page d’accueil (un peu de pub gratuite pour la peine, et si tu as d’autres idées comme celle là je suis preneur) et aussi merci &lt;a href=&quot;https://github.com/AireAyquaza&quot;&gt;AireAyquaza&lt;/a&gt; pour la relecture de code.&lt;br /&gt;
+C’était assez casse-pied à programmer, mais au moins le résultat est classe et j’ai appris que quand on ne nous interdit pas d’utiliser des frameworks et des A.P.Is, le web c’est simple et amusant.&lt;/p&gt;
+
+&lt;p&gt;Maintenant je peux utiliser la programmation évènementiel et AJAX (à peu près) correctement. Reste plus qu’à trouver ce que je peux ajouter d’autre sur ce blog avec Javascript… Bah je trouverais bien une idée débile de truc à coder.&lt;/p&gt;
+
+&lt;p&gt;Sinon si jamais quelqu’un d’autre qu’un ami à moi arrive à se paumer sur ce site (oui Internet c’est grand !), ben il peut en savoir plus sur moi sur la page &lt;a href=&quot;http://halex02.github.io/about/&quot;&gt;a propos&lt;/a&gt;. Il n’y aura pas grand chose, vu qu’à moins de vouloir me proposer un stage (ou un emploi une fois mes études finies), vous n’aurez pas besoin d’en savoir plus.&lt;/p&gt;
+
+&lt;p&gt;Sur ce, &lt;em&gt;salut et encore merci pour le poisson !&lt;/em&gt;&lt;/p&gt;
+
 </content>
  </entry>
  
