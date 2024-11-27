@@ -4,9 +4,6 @@ title: Curriculum Vitæ
 ---
 <section class="header">
 	<h2>{{ site.author.name }}</h2>
-	<h3>Contact</h3>
-	<p>Email : <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
-	<p>Disponible sur LinkedIn : <a href="https://linkedin.com/in/ton-profil">Mon profil</a></p>
 </section>
 
 <section class="content">
