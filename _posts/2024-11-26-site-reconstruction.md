@@ -5,7 +5,7 @@ title: Reconstruction du site
 
 Mon site est en cours de reconstruction après plusieurs années d’abandon.
 J’ai laissé tombé le thème [hacker](https://pages-themes.github.io/hacker/) − je l’avais bricolé en dépit du bon sens et rendu impossible à maintenir −
-pour le remplacer par le thème [lanyon](https://lanyon.getpoole.com) dont j’ai retouché le thème en surchargeant quelques styles de base dans un fichier <code>custom.css</code>
+pour le remplacer par le thème [lanyon](https://lanyon.getpoole.com) dont j’ai retouché le thème en surchargeant quelques styles de base dans un fichier <code>custom.css</code> avec [cette palette](https://paletton.com/#uid=53d0u0kllllaFw0g0qFqFg0w0aF)
 (ne pas retoucher les fichiers de base du thème ! j’ai retenu la leçon).
 
 {% highlight css %}
